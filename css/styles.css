@@ -266,7 +266,21 @@ ul{
 }
 /*footer*/
 .footer-section{
-         background: #2F303A;
+        background: #2F303A;
+        width: 1600px;
+        height: 252px;
+        margin-left:  0px;
+        padding-top:  0px;
+        
+
+}
+.link-footer-container{
+        position: absolute;
+        width: 145px;
+        
+        margin-left: 215px;
+        padding-top:  60px;
+        
 }
 .email-footer, .tel-footer{
         font-family: 'Roboto';
@@ -289,6 +303,15 @@ ul{
         letter-spacing: 0.03em;
         color: #FFFFFF;
         text-decoration: none;
+}
+.address-footer-container{
+        display: block;
+        /*position: absolute;*/
+        width: 231px;
+        height: 81px;
+        margin-left: 215px;
+        padding-top: 111px;
+
 }
 /*portfolio button*/
 .button{
