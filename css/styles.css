@@ -11,11 +11,21 @@
         color: var(--main-color)#757575;
         background-color: var(--bgr-color)#FFFFFF;
         text-decoration: none;  
+
+             
+}
+.container-body{
         margin: 0;
         position: relative;
         width: 1600px;
         height: 2349px;
-             
+}
+.container-body-portfolio{
+        position: relative;
+        width: 1600px;
+        height: 1880px;
+        background: #FFFFFF;
+
 }
 ul{
         list-style: none;
@@ -264,6 +274,56 @@ ul{
         text-align: center;
         margin-top: 10px;
 }
+/*portfolio*/
+.container-portfolio{
+        
+        width: 1170px;
+        height: 1360px;
+        margin-left:  215px;
+        margin-top:  100px;
+}
+.container-btn-portfolio{
+        display: flex;
+        margin-left: 280px;
+        margin-top:  100px;
+        padding-left: 0px;
+        background-color: #FFFFFF;
+}
+/*filters*/
+.filters{
+        
+        align-items: flex-start;
+        border-radius: 4px;
+       
+       
+}
+.btn-all{
+        width: 73px;
+        height: 38px;
+        margin-right: 8px;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);        
+}
+
+.btn-web{
+        width: 128px;
+        height: 38px;
+        margin-right: 8px;
+}
+.btn-applic{
+        width: 145px;
+        height: 38px;
+        margin-right: 8px;
+}
+.btn-design{
+        width: 103px;
+        height: 38px;
+        margin-right: 8px;
+}
+.btn-market{
+        width: 130px;
+        height: 38px;
+}
+
 /*footer*/
 .footer-section{
         background: #2F303A;
@@ -331,6 +391,24 @@ ul{
         color: #FFFFFF;
 }
 /*images portfolio*/
+.img-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: calc((100%-60px)/3);
+        
+        margin-left:  0px;
+        margin-top:  50px;
+        padding-left: 0px;
+        gap:  30px;
+        padding-bottom: 100px;
+}
+.box-project{
+        box-sizing: border-box;
+        width: 370px;
+        height: 404px;
+        background: #FFFFFF;
+        border: 1px solid #EEEEEE;
+}
 .project{
 
         font-weight: 700;
