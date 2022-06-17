@@ -16,12 +16,12 @@
 }
 .container-body{
         margin: 0;
-        position: relative;
+        
         width: 1600px;
         /*height: 2349px;*/
 }
 .container-body-portfolio{
-        position: relative;
+        
         width: 1600px;
         /*height: 1880px;*/
         background: #FFFFFF;
@@ -38,8 +38,17 @@ ul{
         display: flex;
         border: 1px solid #ECECEC;
 }
+.container-link{
+        width: 145px;
+        padding-left:  215px;
+        padding-bottom:  25px;
+        padding-top:  24px;
+
+}
 .container-nav{
         display: flex;
+        width: 294px;
+        padding:  32px 853px 32px 453px;
 }
 .link{
         font-family: 'Raleway';
@@ -49,9 +58,9 @@ ul{
         line-height: 1.2;
         letter-spacing: 0.03em;
         color: #2196F3;
-        margin-left: 215px;
-        padding-top: 24px;
 }
+
+
 .link-text{
         color: black;
 }
@@ -62,12 +71,8 @@ ul{
         color: #2196F3;
 }
 /*main-nav*/
-.main-nav{
-        display: flex;
-        margin-left: 93px;
-        align-items: center;
-        
-}
+
+
 .link-1, .link-2, .link-3 {
         font-style: normal;
         font-weight: 500;
@@ -172,7 +177,6 @@ ul{
         color: var(--main-secon-color);
 
 }
-
 .subtitle-contanier{
         display: flex;
        
@@ -182,15 +186,11 @@ ul{
         padding-right: 0px;
         background: #FFFFFF;
         margin: 94px 215px;
-        gap: 30px;
-
-        
+        gap: 30px;       
 }
 .item, .subtitle{
         width: 270px;
         margin: 0;
-
-
 }
 .text{
         font-weight: 400;
@@ -223,14 +223,14 @@ ul{
         display: flex;
         padding: 0px;
         margin: 0px;
-        gap: 30px;
-      
+        gap: 30px;    
 }
 /*our team*/
 .container-team{
         background: #F5F4FA;
-        width: 1600px;    
-        margin-top: 94px;
+        width: 1600px; 
+        height: 648px;   
+        margin-top: 94px;       
 }
 .our-team{
         
@@ -238,26 +238,23 @@ ul{
         /*padding: 94px 668px 50px 668px;
         padding-left: 668px;*/
         padding-top: 94px;
-        padding-bottom: 50px ;
         margin: 0px;
-
 }
-.teamlead{
-        display: block;
+.container-teamlead{
+        
         display: flex;
-        width: 1230px;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin-top: 50px;
-
+        width: 1170px;
+        margin: 50px 215px 94px 215px;
+        padding: 0px;
 }
-
 .foto{
-        margin-right: 30px;
-        margin-left: 215px;
-        background: #FFFFFF;
+        background: #F5F4FA;
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
+        padding-right: 30px;
+}
+.foto:last-child{
+        padding-right: 0px;
 }
 /*.foto:nth-child(2), :nth-child(3), :nth-child(4){
         margin-left: 0px;
