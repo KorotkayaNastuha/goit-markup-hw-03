@@ -5,50 +5,47 @@
         --main-secon-color: #212121;
         --color-for-hover: #2196F3;
 }
-
 .body{
         font-family: Roboto ,sans-serif;
         color: var(--main-color)#757575;
         background-color: var(--bgr-color)#FFFFFF;
-        text-decoration: none;  
-
-             
+        text-decoration: none;              
 }
 .container-body{
         margin: 0;
-        
-        width: 1600px;
-        /*height: 2349px;*/
+        width: 1600px; 
+        border: 1px solid #ECECEC;
 }
 .container-body-portfolio{
-        
         width: 1600px;
-        /*height: 1880px;*/
         background: #FFFFFF;
-
+        border: 1px solid #ECECEC;
 }
 ul{
         list-style: none;
 }
 /*logo*/
-.container-header{
-        width: 1600px;
-        height: 80px;
-        background: #FFFFFF;
-        display: flex;
-        border: 1px solid #ECECEC;
-}
 .container-link{
-        width: 145px;
-        padding-left:  215px;
-        padding-bottom:  25px;
-        padding-top:  24px;
-
+        width: 1600px;
+        background: #FFFFFF;
+        border: 1px solid #ECECEC;
+        display: flex;
+        align-items: center; 
 }
 .container-nav{
         display: flex;
-        width: 294px;
-        padding:  32px 853px 32px 453px;
+        padding: 0;
+        margin-left: 93px;
+        margin-top: 0;
+        margin-bottom: 0;
+}
+.container-link li{
+        display: block;
+        padding-top: 32px;
+        padding-bottom: 32px;
+}
+.container-link li, .email-tel:not(last-child){
+        margin-right: 50px;
 }
 .link{
         font-family: 'Raleway';
@@ -58,9 +55,8 @@ ul{
         line-height: 1.2;
         letter-spacing: 0.03em;
         color: #2196F3;
+        margin-left: 215px;
 }
-
-
 .link-text{
         color: black;
 }
@@ -71,21 +67,13 @@ ul{
         color: #2196F3;
 }
 /*main-nav*/
-
-
 .link-1, .link-2, .link-3 {
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.2;
         color: #212121;
-        letter-spacing: 0.02em;
-        margin-right: 50px;
-        
-        
-}
-.link-3{
-        margin-right: 0;
+        letter-spacing: 0.02em;       
 }
 .current{
         color: #2196F3;
@@ -101,18 +89,17 @@ ul{
         line-height: 1.2;
         color: #757575;
         letter-spacing: 0.02em;
-        text-decoration: none;
-        margin-right: 50px;
+        text-decoration: none;       
 }
-.tel{
-        margin-right: 0;
+.email{
+        margin-right: 50px;
 }
 .email:hover, .tel:hover, .email:focus, .tel:focus{
         color: #2196F3;      
 }
 .email-tel{
+        display: flex;
         margin-left: 331px;
-        padding-top: 32px;
 }
 /*main section*/
 .business-section{
@@ -123,7 +110,6 @@ ul{
         margin-left: 0;
         padding-top:  80px;
 }
-
 .title{
         font-weight: 900;
         font-size: 44px;
@@ -289,7 +275,7 @@ ul{
 .container-btn-portfolio{
         display: flex;
         margin-left: 280px;
-        margin-top:  100px;
+        margin-top:  94px;
         padding-left: 0px;
         background-color: #FFFFFF;
 }
