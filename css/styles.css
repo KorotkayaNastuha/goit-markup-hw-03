@@ -12,12 +12,17 @@
         text-decoration: none;              
 }
 .container-body{
-        margin: 0;
-        width: 1600px; 
+        margin:auto;
+        width:1200px; 
+        padding-left: 15px;
+        padding-right: 15px;
         border: 1px solid #ECECEC;
 }
 .container-body-portfolio{
-        width: 1600px;
+        width: 1200px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: auto;
         background: #FFFFFF;
         border: 1px solid #ECECEC;
 }
@@ -26,23 +31,24 @@ ul{
 }
 /*logo*/
 .container-link{
-        width: 1600px;
+        
+        padding-left: 15px;
+        padding-right: 15px;
         background: #FFFFFF;
-        border: 1px solid #ECECEC;
+        /*border: 1px solid #ECECEC;*/
         display: flex;
-        align-items: center; 
+        margin-top: 32px;
+        margin-bottom: 32px;
+        
 }
 .container-nav{
         display: flex;
-        padding: 0;
-        margin-left: 93px;
-        margin-top: 0;
-        margin-bottom: 0;
+        margin: auto;
+        
+
 }
 .container-link li{
         display: block;
-        padding-top: 32px;
-        padding-bottom: 32px;
 }
 .container-link li, .email-tel:not(last-child){
         margin-right: 50px;
@@ -55,7 +61,8 @@ ul{
         line-height: 1.2;
         letter-spacing: 0.03em;
         color: #2196F3;
-        margin-left: 215px;
+        margin-left:auto;
+        
 }
 .link-text{
         color: black;
@@ -73,7 +80,8 @@ ul{
         font-size: 14px;
         line-height: 1.2;
         color: #212121;
-        letter-spacing: 0.02em;       
+        letter-spacing: 0.02em; 
+    
 }
 .current{
         color: #2196F3;
@@ -89,7 +97,9 @@ ul{
         line-height: 1.2;
         color: #757575;
         letter-spacing: 0.02em;
-        text-decoration: none;       
+        text-decoration: none; 
+        display: flex;
+        justify-content: center;
 }
 .email{
         margin-right: 50px;
@@ -99,17 +109,20 @@ ul{
 }
 .email-tel{
         display: flex;
-        margin-left: 331px;
+        margin: auto;
+        
 }
 /*main section*/
-.business-section{
-        background: #2F303A;
+/*.business-container{
+        
 
-        width: 1600px;
-        height: 600px;
-        margin-left: 0;
-        padding-top:  80px;
-}
+        width: 1200px;
+        /*height: 600px;
+        margin: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+}*/
 .title{
         font-weight: 900;
         font-size: 44px;
@@ -118,15 +131,26 @@ ul{
         text-transform: uppercase;
         color: #FFFFFF;
         text-align: center;
+        
 }
 .title-container{
-        width: 696px;
-        height: 120px;
-        margin-left: 452px;
-        margin-top:  80px;
+        
+        padding-left: 15px;
+        padding-right: 15px;
+        
+        padding-top: 200px;
+        padding-bottom: 200px;
+        
+        
+        background: #2F303A;
 
 }
-.button-order, .container-button{
+.hat{
+        width: 696px;
+        margin-left: auto;
+        margin-right: auto;
+}
+.button-order{
         background: #F5F4FA;
         font-weight: 700;
         font-size: 16px;
@@ -134,16 +158,18 @@ ul{
         letter-spacing: 0.06em;
         color: #FFFFFF;
         cursor: pointer;
-}
-.container-button{
-        width: 200px;
-        height: 50px;
-        margin-left: 700px;
-        margin-top: 30px;
-        display: inline-block;
-        
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
+        
+}
+.container-button{
+               
+        display: flex;
+        text-align: center;      
+        margin-left: auto;
+        margin-right: auto;
+        
+        
         
 
 }
@@ -167,11 +193,11 @@ ul{
         display: flex;
        
         width: 1170px;
-        height: 101px;
-        padding-left: 0px;
-        padding-right: 0px;
+        
+        padding-left: 15px;
+        padding-right: 15px;
         background: #FFFFFF;
-        margin: 94px 215px;
+        
         gap: 30px;       
 }
 .item, .subtitle{
@@ -214,7 +240,7 @@ ul{
 /*our team*/
 .container-team{
         background: #F5F4FA;
-        width: 1600px; 
+        width: 1200px; 
         height: 648px;   
         margin-top: 94px;       
 }
@@ -317,7 +343,7 @@ ul{
 /*footer*/
 .footer-section{
         background: #2F303A;
-        width: 1600px;
+        width: 1200px;
         height: 252px;
         margin-left:  0px;
         padding-top:  0px;
