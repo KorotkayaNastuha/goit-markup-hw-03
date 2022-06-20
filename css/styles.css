@@ -29,6 +29,7 @@ img{
         width: 1200px;
         padding: 0 15px;
         background: #FFFFFF;
+        border: 1px solid #ECECEC;
         
         
 }
@@ -259,9 +260,11 @@ ul{
 }
 /*portfolio*/
 .container-portfolio{
+        width: 1170px;
+        
         margin-top: 94px;
         margin-bottom: 94px; 
-        padding-left: 0px;      
+              
 }
 .btn-portfolio{
         display: flex;
@@ -365,28 +368,18 @@ ul{
 }
 /*images portfolio*/
 .img-container{
-        width: 1200px;
-        padding-left: 15px;
-        padding-right: 15px;
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wrap;        
+        padding-left: 0;
         margin-top: 50px;
-        gap: 30px;
-        
-        
-        
+        margin-bottom: 0;
+        gap: 30px;      
 } 
-
-
-
-
 .box-project{
         box-sizing: border-box;
         margin: auto;
         background: #FFFFFF;
-        
-        
-        flex-basis: calc((100%-60px)/3);        
+                
 }
 .project-text{
         border-bottom: 1px solid #ECECEC ;
@@ -403,11 +396,7 @@ ul{
         color: var(--main-secon-color);
         padding-left:  24px;
         padding-top:  20px;
-        margin: 0px;
-        
-        
-        
-        
+        margin: 0px;       
 }
 .meaning{
         font-weight: 400;
