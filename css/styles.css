@@ -1,8 +1,8 @@
-/*img{
+img{
         display: block;
         max-width: 100%;
         height: auto;
-}*/
+}
 :root{
         --main-color: #757575;
         --bgr-color: #FFFFFF;
@@ -22,13 +22,15 @@
         padding-left: 15px;
         padding-right: 15px;
         border: 1px solid #ECECEC;
+        
 }
 .container-body-portfolio{
         margin: auto;
         width: 1200px;
         padding: 0 15px;
         background: #FFFFFF;
-        border: 1px solid #ECECEC;
+        
+        
 }
 ul{
         list-style: none;
@@ -363,19 +365,33 @@ ul{
 }
 /*images portfolio*/
 .img-container{
+        width: 1200px;
+        padding-left: 15px;
+        padding-right: 15px;
         display: flex;
         flex-wrap: wrap;
-        padding-left: 0;
+        
+        margin-top: 50px;
+        margin-bottom: 0px;
         gap: 30px;
-        flex-basis: calc((100%-60px)/3);
+} 
 
-}       
+
+
 
 .box-project{
         box-sizing: border-box;
-
+        margin: auto;
         background: #FFFFFF;
-        border: 1px solid #EEEEEE;
+        
+        
+        flex-basis: calc((100%-60px)/3);        
+}
+.project-text{
+        border-bottom: 1px solid #ECECEC ;
+        border-left: 1px solid #ECECEC;
+        border-right: 1px solid #ECECEC;
+
 }
 .project{
 
@@ -384,8 +400,12 @@ ul{
         line-height: 2;
         letter-spacing: 0.06em;
         color: var(--main-secon-color);
-        padding: 20px 24px 4px;
+        padding-left:  24px;
+        padding-top:  20px;
         margin: 0px;
+        width: 332px;
+        justify-content: flex-start;
+        
 }
 .meaning{
         font-weight: 400;
@@ -393,6 +413,9 @@ ul{
         line-height: 1.8;
         letter-spacing: 0.03em;
         color: var(--main-color);
-        padding: 4px 24px 20px;
-        margin: 0px;
+
+        width: 332px;
+        padding-left: 24px;
+        padding-top: 4px;
+        margin-bottom: 20px;
 }
