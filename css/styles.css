@@ -370,10 +370,11 @@ ul{
         padding-right: 15px;
         display: flex;
         flex-wrap: wrap;
-        
         margin-top: 50px;
-        margin-bottom: 0px;
         gap: 30px;
+        
+        
+        
 } 
 
 
@@ -403,8 +404,9 @@ ul{
         padding-left:  24px;
         padding-top:  20px;
         margin: 0px;
-        width: 332px;
-        justify-content: flex-start;
+        
+        
+        
         
 }
 .meaning{
@@ -414,7 +416,7 @@ ul{
         letter-spacing: 0.03em;
         color: var(--main-color);
 
-        width: 332px;
+        
         padding-left: 24px;
         padding-top: 4px;
         margin-bottom: 20px;
