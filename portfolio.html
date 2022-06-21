@@ -14,14 +14,14 @@
     <link rel="stylesheet" href="./css/styles.css"/>
 </head>
 
-<body class="body container-body-portfolio">
+<body class="body">
     <!--Main page-->
-    <div>
+    <div class="container">
         <header>
             <!--Contacts section-->
-            <nav class=" container-link">
+            <nav class=" items">
                 <a class="link" href="./portfolio.html">Web<span class="link-text">Studio</span></a>
-                <ul class="container-nav">
+                <ul class="nav">
                     <li><a class="link-1" href="./index.html">Студия</a></li>
                     <li><a class="link-2 current" href="./portfolio.html">Портфолио</a></li>
                     <li><a class="link-3" href="">Контакты</a></li>
@@ -34,8 +34,10 @@
             </nav>
         </header>
         <!--Portfolio section-->
-        <main class="container-portfolio">
+        <main>
+            <section class="section">
             <section>
+                <div class="container">
                 <ul class="btn-portfolio">
                     <li><button class="button filters btn-all" type="button">Все</button></li>
                     <li><button class="button filters btn-web" type="button">Веб-сайты</button></li>
@@ -43,6 +45,7 @@
                     <li><button class="button filters btn-design" type="button">Дизайн</button></li>
                     <li><button class="button filters btn-market" type="button">Маркетинг</button></li>
                 </ul>
+                
             </section>
             <!--Images section-->
             <section>
@@ -103,17 +106,23 @@
                     </div>
                 </li>
                 </ul>
+            </div>
             </section>
+        </section>
         </main>
-        <footer  class="footer-container">
-            <!--Footer section-->
-            <div  class="address-footer-container">
+        <!--Footer section-->
+        <footer>
+            <section>
+            
+            <div  class="container">
+                <div class="footer">
                 <a class="link" href="./index.html">Web<span class="link-text-footer">Studio</span></a>
                 <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
                 <a class="email-footer" href="info@example.com">info@example.com</a>
                 <a class="tel-footer"  href="+380991111111">+380991111111</a>
-                
+                </div>
             </div>
+        </section>
         </footer>
     </div>
 </body>
