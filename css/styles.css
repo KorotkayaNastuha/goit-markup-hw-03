@@ -6,6 +6,10 @@ img{
 h1,h2,h3,p{
         margin: 0;
 }
+ul{
+        padding: 0;
+        margin: 0;
+}
 :root{
         --main-color: #757575;
         --bgr-color: #FFFFFF;
@@ -24,23 +28,22 @@ h1,h2,h3,p{
         margin-right: auto;
         width:1200px; 
         padding-left: 15px;
-        padding-right: 15px;
-        
-        
+        padding-right: 15px;        
 }
-
 ul{
         list-style: none;
 }
 /*logo*/
+.header{
+        padding-top: 24px;
+        padding-bottom: 24px;  
+        border-bottom: 1px solid #ECECEC;  
+            
+}
 .items{
-        
-
         background: #FFFFFF;
-        border-bottom: 1px solid #ECECEC;
         display: flex;
-        padding-top: 32px;
-        padding-bottom: 32px;       
+       
 }
 .nav{
         display: flex;
@@ -160,8 +163,10 @@ ul{
         justify-content: center;        
         background: #FFFFFF;
         gap: 30px;  
-        padding-left: 0;  
-          
+        padding-left: 0;           
+}
+.item{
+        width: 270px;
 }
 .subtitle-contanier li{
         justify-content: flex-start;
@@ -178,10 +183,8 @@ ul{
         margin-bottom: 0px;
 }
 /*what we are doing*/
-.container-work{
-        display: block;
-        margin: 94px 0px 94px 0px;
-        text-align: center;
+.perform-section{
+        padding-bottom: 94px;
 }
 .perform, .our-team {
         font-weight: 700;
@@ -200,7 +203,9 @@ ul{
         gap: 30px;    
 }
 /*our team*/
-
+.team{
+        background: #F5F4FA;
+}
 .our-team{       
         text-align: center;
 
@@ -226,8 +231,7 @@ ul{
         letter-spacing: 0.03em;
         color: var(--main-secon-color);
         text-align: center;
-
-        
+        padding-bottom: 10px;        
 }
 .job{
         font-weight: 400;
